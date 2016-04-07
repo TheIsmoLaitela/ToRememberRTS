@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>MoveViewInit();
 SelectAreaInit();
+MovementGridGlobalInit();
 </string>
           </argument>
         </arguments>
@@ -51,6 +52,7 @@ SelectAreaInit();
             <kind>1</kind>
             <string>MoveViewStep();
 SelectAreaStep();
+MoveUnits();
 </string>
           </argument>
         </arguments>
@@ -73,17 +75,9 @@ SelectAreaStep();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Test draw thingies
-draw_set_color(c_yellow);
-draw_line(0,0,128,128);
+            <string>SelectAreaDraw();
 
-draw_set_color(c_orange);
-draw_line(128,0,0,128);
 
-draw_set_color(c_red);
-draw_circle(64,64,16,true);
-
-SelectAreaDraw();
 </string>
           </argument>
         </arguments>
