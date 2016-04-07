@@ -5,6 +5,9 @@ armor = 1;
 //Movement
 spd = 1;
 
+// Create motion-planning elements
+mp_path = path_add();
+
 //Attacking
 dmg = 10;
 delay = 15; //Room speed 60, 15frames = 0.25sec

@@ -20,10 +20,14 @@
     <script>scripts\SelectAreaDraw.gml</script>
     <script>scripts\UnitInit.gml</script>
     <script>scripts\UnitDraw.gml</script>
+    <script>scripts\MovementGridGlobalInit.gml</script>
+    <script>scripts\UnitMovementGridStep.gml</script>
+    <script>scripts\MoveUnits.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_controller</object>
     <object>objects\obj_player_unit_master</object>
+    <object>objects\obj_solid</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_test</room>
