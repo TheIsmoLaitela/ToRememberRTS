@@ -3,8 +3,8 @@
   <caption></caption>
   <width>128</width>
   <height>128</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>4</vsnap>
+  <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -52,6 +52,13 @@
   </views>
   <instances>
     <instance objName="obj_controller" x="0" y="0" name="inst_5D7864C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="20" y="56" name="inst_330D0602" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="28" y="64" name="inst_6CDF012B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="16" y="68" name="inst_D78B4CA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="28" y="52" name="inst_9B082C51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="36" y="68" name="inst_89DB70B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="28" y="76" name="inst_4FF2068B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player_unit_master" x="44" y="60" name="inst_C4E3412E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
