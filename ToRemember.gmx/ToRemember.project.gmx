@@ -25,6 +25,7 @@
       <script>scripts\SelectAreaDraw.gml</script>
       <script>scripts\AddSelectedUnitsToGroup.gml</script>
       <script>scripts\SelectGroupedUnits.gml</script>
+      <script>scripts\GroupInit.gml</script>
     </scripts>
     <scripts name="units">
       <script>scripts\UnitInit.gml</script>
@@ -32,6 +33,7 @@
       <script>scripts\UnitDraw.gml</script>
     </scripts>
   </scripts>
+  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\obj_controller</object>
     <object>objects\obj_player_unit_master</object>
