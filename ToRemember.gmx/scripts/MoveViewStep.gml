@@ -7,8 +7,8 @@ if(mouse_check_button(mb_right))
 {
     var newx = window_mouse_get_x();
     var newy = window_mouse_get_y();
-    view_xview[0] += round((mousex-newx)/4);
-    view_yview[0] += round((mousey-newy)/4);
+    view_xview[0] += round((mousex-newx)/10);
+    view_yview[0] += round((mousey-newy)/10);
     mousex = newx;
     mousey = newy;
 }

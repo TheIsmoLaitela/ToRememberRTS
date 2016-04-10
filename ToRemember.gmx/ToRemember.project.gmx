@@ -9,22 +9,29 @@
     <sprite>sprites\spr_select_area</sprite>
     <sprite>sprites\spr_unit_hitbox</sprite>
     <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_health_bar</sprite>
+    <sprite>sprites\spr_unit_selected</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\MoveViewInit.gml</script>
-    <script>scripts\MoveViewStep.gml</script>
-    <script>scripts\SelectAreaInit.gml</script>
-    <script>scripts\SelectAreaStep.gml</script>
-    <script>scripts\SelectAreaDraw.gml</script>
-    <script>scripts\UnitInit.gml</script>
-    <script>scripts\UnitDraw.gml</script>
-    <script>scripts\MovementGridGlobalInit.gml</script>
-    <script>scripts\UnitMovementGridStep.gml</script>
-    <script>scripts\MoveUnits.gml</script>
+    <scripts name="controller">
+      <script>scripts\MovementGridGlobalInit.gml</script>
+      <script>scripts\MoveViewInit.gml</script>
+      <script>scripts\SelectAreaInit.gml</script>
+      <script>scripts\MoveViewStep.gml</script>
+      <script>scripts\SelectAreaStep.gml</script>
+      <script>scripts\MoveUnits.gml</script>
+      <script>scripts\SelectAreaDraw.gml</script>
+      <script>scripts\AddSelectedUnitsToGroup.gml</script>
+      <script>scripts\SelectGroupedUnits.gml</script>
+    </scripts>
+    <scripts name="units">
+      <script>scripts\UnitInit.gml</script>
+      <script>scripts\UnitMovementGridStep.gml</script>
+      <script>scripts\UnitDraw.gml</script>
+    </scripts>
   </scripts>
-  <shaders name="shaders"/>
   <objects name="objects">
     <object>objects\obj_controller</object>
     <object>objects\obj_player_unit_master</object>

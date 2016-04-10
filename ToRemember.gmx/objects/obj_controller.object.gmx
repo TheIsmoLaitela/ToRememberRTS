@@ -28,6 +28,7 @@
             <string>MoveViewInit();
 SelectAreaInit();
 MovementGridGlobalInit();
+add_group = false;
 </string>
           </argument>
         </arguments>
@@ -53,6 +54,10 @@ MovementGridGlobalInit();
             <string>MoveViewStep();
 SelectAreaStep();
 MoveUnits();
+
+//Grouping units
+AddSelectedUnitsToGroup();
+SelectGroupedUnits();
 </string>
           </argument>
         </arguments>

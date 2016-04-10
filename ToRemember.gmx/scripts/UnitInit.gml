@@ -1,5 +1,6 @@
 //Defence
-hp = 100;
+start_hp = 100;
+current_hp = 100;
 armor = 1;
 
 //Movement
